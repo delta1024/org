@@ -1,0 +1,36 @@
+#+TITLE: Arch Linux System Notes
+
+* Shrinking a LVM/LUKS partition
+** Boot and setup
+  Boot into your live [[https://archlinux.org/download/][USB flash installation media]].
+
+  Decrypt the LUKS volume:
+#+begin_src
+cryptsetup luksOpen /dev/sda2 cryptdisk
+#+end_src
+
+** Resize the Volume
+Extend the logical volume `mediavol` in `MyVolGroup` by 10GB and resize its filesystem all at once
+#+begin_src 
+lvresize -L +10G --resizefs MyVolGroup/mediavol
+#+end_src
+
+Set the size of the logical volume `mediavol` in `MyVolGroup` to 15G and resize its file system all at once:
+#+begin_src 
+lvresize -L 15G --resizefs MyVolGroup/mediavol
+#+end_src
+
+If you want to fill all the free space on a volume group, use the following command:
+#+begin_src 
+lvresize -l +100%FREE --resizefs MyVolGroup/mediavol
+#+end_src
+
+You can run `fsck` just to make sure nothing broke:
+#+begin_src 
+e2fsck -f /dev/vgroup/lvhome
+#+end_src
+
+
+
+
+
