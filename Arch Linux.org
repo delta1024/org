@@ -10,7 +10,7 @@ cryptsetup luksOpen /dev/sda2 cryptdisk
 #+end_src
 
 ** Resize the Volume
-Extend the logical volume ~mediavol~ in ~MyVolGroup~ by 10GB and resize
+Extend the logical volume =mediavol= in =MyVolGroup= by 10GB and resize
 its filesystem all at once
 #+begin_src 
 lvresize -L +10G --resizefs MyVolGroup/mediavol
@@ -37,7 +37,7 @@ e2fsck -f /dev/vgroup/lvhome
 
 * Changing X org keybindings
 ** Globaly
-Navigate to [[/sudo:root@Cortex:/etc/X11/xorg.conf.d][X org config dir]] and create the file [[/sudo:root@Cortex:/etc/X11/xorg.conf.d/90-custom-kdb.conf][90-custom-kdb.conf]]
+Navigate to [[/sudo:root@Cortex:/etc/X11/xorg.conf.d][X org config dir]] and create the file [[/sudo:root@Cortex:/etc/X11/xorg.conf.d/90-custom-kbd.conf][90-custom-kbd.conf]]
 then add the following lines:
 
 The lines in this section should be appened to the file after the
@@ -79,3 +79,44 @@ keycode  22 = Tab ISO_Left_Tab Tab ISO_Left_Tab
 #+begin_src  sh
 xmodmap ~/.Xmodmap
 #+end_src
+
+* ZSH
+
+** Arrays
+First, I assume that the use of =ls= is just an example. You cannot
+parse the output of ls in any shell, because it is ambiguous. Read [[http://mywiki.wooledge.org/ParsingLs][Why
+you shouldn't parse the output of ls(1)]] if this is news to you. In any
+shell, to obtain a list of files, use wildcards, e.g. ~files=(*)~.
+
+In zsh, like in other shells, the result of [[http://zsh.sourceforge.net/Doc/Release/Expansion.html#Command-Substitution][command substitution]] is
+split into words at whitespace characters (more precisely, according
+to the value of ~IFS~). (Unlike other shells, the result of command
+substitution is not subject to globbing in zsh.) So if the output of
+the ~ls~ command is
+#+begin_src 
+hello world
+wibble
+#+end_src
+then =files=($(ls))= sets the files array to contain 3 elements: hello,
+world and wibble.
+
+If the command substitution is in double quotes, then no splitting is
+performed. You can perform custom splitting with [[http://zsh.sourceforge.net/Doc/Release/Expansion.html#Parameter-Expansion-Flags][parameter extension
+flags]]. Use the =@= flag to indicate that the result of the splitting is
+to be an array (oddly, you need to keep the expansion in double
+quotes, i.e. ="${(@)…}"=, even though the double-quoted string will
+expand to multiple words). For splitting, use the =s= flag,
+e.g. ="${(@s:,:)…}"= to split at commas; the =f= flag splits at newlines
+only.
+
+#+begin_src 
+files=("${(@f)$(ls)}")
+#+end_src
+
+Note that the proper way to iterate over an array in general is =for f
+in $files[@]=, as =$files= strips off empty elements (here, it doesn't
+matter because the elements won't be empty).
+
+=print $f= interprets =$f= as a switch if it begins with a =-= and expands
+backslashes in =$f=. Use =print -r -- $f=, or =print -rn -- $f= if you don't
+want to add a newline after the string.
