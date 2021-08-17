@@ -1,4 +1,4 @@
-#+TITLE: Arch Linux System Notes
+#+TITLE: Linux Notes
 
 * Shrinking a LVM/LUKS partition
 ** Boot and setup
@@ -33,7 +33,45 @@ You can run ~fsck~ just to make sure nothing broke:
 e2fsck -f /dev/vgroup/lvhome
 #+end_src
 
+* GPG Keys
+** Backup GPG Key
+[[file:~/Downloads/How to Backup and Restore Your GPG Key _ Risan Bagja Pradana.html::<!DOCTYPE html>][Backup GPG]]
+To export your GPG privit key, run the following command:
+#+begin_src sh
+  $ gpg --export-secret-keys --armor name > /path/to/secret-key-backup.asc
+#+end_src
 
+If you need to find the name of a private key you can run:
+#+begin_src sh
+  $ gpg --list-secret-keys
+#+end_src
+
+The --armor option is used to export the key in ASCII format. If we don’t pass the --armor option, the key will be exported in binary format. Now all you have to do is store the generated file (secret-key-backup.asc) somewhere for your backup.
+
+To back up the trust database you can run the following
+#+begin_src sh
+  $ gpg --export-ownertrust > /path/to/trustdb-backup.txt
+#+end_src
+
+** Restore GPG Key
+To restore your GPG key run:
+#+begin_src sh
+  $ gpg --import /path/to/secrete-key-packup.asc
+#+end_src
+
+And to restore your private trust database, run the following command:
+#+begin_src sh
+  # Will delete the existing trust database.
+  $ rm ~/.gnupg/trustdb.gpg
+  $ gpg --import-ownertrust < /path/to/trust-db-backup.txt
+#+end_src
+
+If you didn’t back up your trust database, the restored GPG key will have an “unknown” trust level. To set it to “ultimate” or another trust level, run the following command:
+#+begin_src sh
+$ gpg --edit-key name # Replace "name" with yours
+$ gpg> trust # Choose "ultimate" or other trust level
+$ gpg> save # Save the changes
+#+end_src
 
 * Changing X org keybindings
 ** Globaly

@@ -1,6 +1,6 @@
 #+TITLE: Guix Install Path
 
-* Getting Ready
+* Backups
 - [X] Dotfiles
 - [ ] gpg public and private key.
 - [ ] gitlab.gpg.

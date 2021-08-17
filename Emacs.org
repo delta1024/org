@@ -1,0 +1,12 @@
+#+TITLE: Emacs Notes
+#+AUTHOR: Jacob Stannix
+
+* Wishlist
+
+** [[https://github.com/minad/vertico][Virtico]]
+
+** [[https://github.com/org-roam/org-roam][Org Roam]]
+
+** [[https://github.com/raxod502/prescient.el][prescient]]
+
+** [[https://github.com/ajgrf/edwina][Edwina]]
