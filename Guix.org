@@ -2,12 +2,13 @@
 
 * Backups
 - [X] Dotfiles
-- [ ] gpg public and private key.
-- [ ] gitlab.gpg.
-- [ ] Documents
+- [X] gpg public and private key.
+- [X] gitlab.gpg.
+- [X] Documents
+- [X] devel
 
 * Migrating to Guix as a package manager
-- [ ] Install Guix
+- [X] [[https://systemcrafters.cc/craft-your-system-with-guix/installing-the-package-manager/][Install Guix]]
 - [ ] convert emacs packages to use Guix
 - [ ] replace existing binaries with ones from the Guix Store.
 
