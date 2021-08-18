@@ -5,6 +5,8 @@
 
 ** [[https://github.com/minad/vertico][Virtico]]
 
+** [[https://github.com/nex3/perspective-el][Perspective]]
+
 ** [[https://github.com/org-roam/org-roam][Org Roam]]
 
 ** [[https://github.com/raxod502/prescient.el][prescient]]
