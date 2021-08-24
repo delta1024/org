@@ -1,0 +1,15 @@
+#+TITLE: Camping checklist
+- [ ] Toiletries
+- [ ] sleepging bag / pillow
+- [ ] thermal top and bototms
+- [ ] blanket
+- [ ] pants, confies, t-shirts, hoodies, jacket
+- [ ] Rain Gear
+  - [ ] Top
+  - [ ] bottom
+  - [ ] socks
+  - [ ] undies
+- [ ] Shorts
+- [ ] 2 pairs shoes
+- [ ] sandles
+- [ ] hat

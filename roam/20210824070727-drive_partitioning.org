@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       93cb69db-fa31-4a47-9464-5b3635615066
+:END:
+#+title: Drive_Partitioning
+In Linux drive are partitioned in a variety of ways, some graphical others using the command line.

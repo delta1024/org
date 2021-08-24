@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       68419af6-b529-4316-8971-89ca48225322
+:END:
+#+title: GnuPG
+GnuPG is the open source implementation of private key cryptology by the [[id:f74fa6ce-80f2-40f7-8c61-6470ec2b1dd8][GNU]] Project

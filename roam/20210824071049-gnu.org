@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       f74fa6ce-80f2-40f7-8c61-6470ec2b1dd8
+:END:
+#+title: GNU
+Gnu is Not Unix
