@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       80c0b357-7eff-4696-9118-67f21bf292a8
+:END:
+#+title: zsh-arrays
+First, I assume that the use of =ls= is just an example. You cannot
+parse the output of ls in any shell, because it is ambiguous. Read [[http://mywiki.wooledge.org/ParsingLs][Why
+you shouldn't parse the output of ls(1)]] if this is news to you. In any
+shell, to obtain a list of files, use wildcards, e.g. ~files=(*)~.
+
+In zsh, like in other shells, the result of [[http://zsh.sourceforge.net/Doc/Release/Expansion.html#Command-Substitution][command substitution]] is
+split into words at whitespace characters (more precisely, according
+to the value of ~IFS~). (Unlike other shells, the result of command
+substitution is not subject to globbing in zsh.) So if the output of
+the ~ls~ command is
+#+begin_src
+hello world
+wibble
+#+end_src
+then =files=($(ls))= sets the files array to contain 3 elements: hello,
+world and wibble.
+
+If the command substitution is in double quotes, then no splitting is
+performed. You can perform custom splitting with [[http://zsh.sourceforge.net/Doc/Release/Expansion.html#Parameter-Expansion-Flags][parameter extension
+flags]]. Use the =@= flag to indicate that the result of the splitting is
+to be an array (oddly, you need to keep the expansion in double
+quotes, i.e. ="${(@)…}"=, even though the double-quoted string will
+expand to multiple words). For splitting, use the =s= flag,
+e.g. ="${(@s:,:)…}"= to split at commas; the =f= flag splits at newlines
+only.
+
+#+begin_src 
+files=("${(@f)$(ls)}")
+#+end_src
+
+Note that the proper way to iterate over an array in general is =for f
+in $files[@]=, as =$files= strips off empty elements (here, it doesn't
+matter because the elements won't be empty).
+
+=print $f= interprets =$f= as a switch if it begins with a =-= and expands
+backslashes in =$f=. Use =print -r -- $f=, or =print -rn -- $f= if you don't
+want to add a newline after the string.

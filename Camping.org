@@ -1,15 +1,27 @@
 #+TITLE: Camping checklist
-- [ ] Toiletries
-- [ ] sleepging bag / pillow
-- [ ] thermal top and bototms
-- [ ] blanket
-- [ ] pants, confies, t-shirts, hoodies, jacket
-- [ ] Rain Gear
-  - [ ] Top
-  - [ ] bottom
-  - [ ] socks
-  - [ ] undies
-- [ ] Shorts
-- [ ] 2 pairs shoes
-- [ ] sandles
-- [ ] hat
+- [X] Toiletries
+- [X] sleeping stuff
+  - [X] sleepging bag 
+  - [X] pillow
+- [X] thermal
+  - [X] top 
+  - [X] bototms
+- [X] blanket
+- [X] pants
+- [X] confies
+- [X] t-shirts
+- [X] hoddies
+- [X] jacket
+- [X] Rain Gear
+  - [X] Top
+  - [X] bottom
+  - [X] socks
+  - [X] undies
+- [X] Shorts
+- [X] 2 pairs shoes
+- [X] sandles
+- [X] hat
+- [X] Drugs
+  - [X] Prozac
+  - [X] inhaler
+  - [X] fun drugs

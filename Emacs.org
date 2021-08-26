@@ -3,12 +3,17 @@
 
 * Wishlist
 
-** [[https://github.com/minad/vertico][Virtico]]
+** [[file:~/.dotfiles/guides/edwina.org][edwina]]
 
-** [[https://github.com/nex3/perspective-el][Perspective]]
+** [[file:~/.dotfiles/guides/embark.org][embark]]
 
-** [[https://github.com/org-roam/org-roam][Org Roam]]
+** [[file:~/.dotfiles/guides/marginalia.org][marginalia]] 
 
-** [[https://github.com/raxod502/prescient.el][prescient]]
+** [[file:~/.dotfiles/guides/perspective.md][perspective]] 
 
-** [[https://github.com/ajgrf/edwina][Edwina]]
+** [[file:~/.dotfiles/guides/prescient.md][prescient]] 
+
+** [[file:~/.dotfiles/guides/selectrum.md][selectrum]] 
+
+** [[file:~/.dotfiles/guides/vertico.org][vertico]]
+

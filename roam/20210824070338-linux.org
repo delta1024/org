@@ -8,3 +8,4 @@ Linux is the coloquial name for the [[id:f74fa6ce-80f2-40f7-8c61-6470ec2b1dd8][G
 - [[id:f37ac21b-9ca9-4b1b-8947-ea7a0f905746][Encryption]]
 - [[id:f74fa6ce-80f2-40f7-8c61-6470ec2b1dd8][GNU]]
 - [[id:56a26ff3-eba0-4d5f-9392-1a0758047cfa][Emacs]] 
+- [[id:17912b43-f25d-4758-b7b7-e04decf895e5][XORG]]

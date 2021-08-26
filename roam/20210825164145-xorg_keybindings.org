@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       6ff027fb-dff2-4c58-876f-d4cda75d4bcc
+:END:
+#+title: xorg-keybindings
+* Changing X org keybindings
+** Globaly
+Navigate to [[/sudo:root@Cortex:/etc/X11/xorg.conf.d][X org config dir]] and create the file [[/sudo:root@Cortex:/etc/X11/xorg.conf.d/90-custom-kbd.conf][90-custom-kbd.conf]]
+then add the following lines:
+
+The lines in this section should be appened to the file after the
+~MatchIskeyboard~ line and befor the ~Endsection~ line.
+
+#+begin_src conf-unix
+Section "InputClass"
+    Identifier "keyboard defaults"
+    MatchIsKeyboard "on"
+EndSection
+#+end_src
+ * Swap CapsLock and Control:
+    #+begin_src conf-unix
+    Option "XkbOptions" "ctrl:swapcaps"
+    #+end_src
+** Per User 
+Swap Left Control and Tab This option is not avalible in [[/usr/share/X11/xkb/rules/base.lst][base.lst]] so
+we have to instead create [[~/.Xmodmap][.Xmodmap]] in our $HOME~ directory and add the
+appropriate values.
+
+To find keys run the following:
+#+begin_src sh
+xmodmap -pke | egrep -e '(Tab|Backspace)'
+#+end_src
+
+the output is as follows:
+#+begin_src conf-unix 
+keycode  22 = BackSpace BackSpace BackSpace BackSpace
+keycode  23 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+#+end_src
+
+now we add the following to our [[~/.Xmodmap][.Xmodmap]] file:
+#+begin_src conf-unix
+keycode  23= BackSpace BackSpace BackSpace BackSpace
+keycode  22 = Tab ISO_Left_Tab Tab ISO_Left_Tab
+#+end_src
+
+
+#+begin_src  sh
+xmodmap ~/.Xmodmap
+#+end_src

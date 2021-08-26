@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       17912b43-f25d-4758-b7b7-e04decf895e5
+:END:
+#+title: XORG
+Xorg or cross desktop standerd is the oldes display server still in use on linux
+- [[id:6ff027fb-dff2-4c58-876f-d4cda75d4bcc][keybindings]]

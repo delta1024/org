@@ -3,3 +3,4 @@
 :END:
 #+title: GnuPG
 GnuPG is the open source implementation of private key cryptology by the [[id:f74fa6ce-80f2-40f7-8c61-6470ec2b1dd8][GNU]] Project
+- [[id:9dba1880-ed0e-4d63-b0f5-ea795de5870d][GPG Keys]]

@@ -3,3 +3,10 @@
 :END:
 #+title: Emacs
 Emacs is an extensible text editor that is part of the [[id:f74fa6ce-80f2-40f7-8c61-6470ec2b1dd8][GNU]] Project. The name Emacs stands for Editor MACroS.
+
+Packages:
+- [[id:7fafcb8e-296b-478b-aa6a-d32b4095429c][edwina]] 
+- [[id:93a90f73-a92e-486f-b956-caeccba09d97][embark]] 
+- [[id:21b70541-2776-45c5-9b19-15ce000327bd][vertico]]
+- [[id:39f9ecfd-d65b-41da-b406-15bb264671e0][marginalia]] 
+* TODO [[id:4252244e-f5b8-4f04-a661-0f25211e8de8][perspective]] 
