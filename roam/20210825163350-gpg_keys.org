@@ -25,7 +25,7 @@ To back up the trust database you can run the following
 * Restore GPG Key
 To restore your GPG key run:
 #+begin_src sh
-  $ gpg --import /path/to/secrete-key-packup.asc
+  $ gpg --import /path/to/secrete-key-backup.asc
 #+end_src
 
 And to restore your private trust database, run the following command:
