@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       48835968-cf18-4a2a-b0d3-3670b89b461b
+:END:
+#+title: GnuUtils
+- [[id:0475fe77-4b06-443f-8703-30784c862ef4][dd]]

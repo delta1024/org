@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       5ddf72f1-50ab-4d40-b19d-1a797a56555d
+:END:
+#+title: shell
+a shell is a process that runs around your core apps and fasilitates communication between them. one example is [[id:b80aa01d-249e-43bf-8487-c4c073ff4c9f][ZSH]].

@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       539a2ea6-5af8-4eed-bba1-7813c638d21f
+:END:
+#+title: Swap
+Swap is used to offload extra memory pages when the ram buffer fills up
+* Swap File
+To create a swap file you can use the [[id:0475fe77-4b06-443f-8703-30784c862ef4][dd]] command.
+to creat a one gig swapfile run this command in the [[id:5ddf72f1-50ab-4d40-b19d-1a797a56555d][shell]]:
+
+#+begin_src shell
+sudo dd if=/dev/zero of=/swapfile bs=1024 count=1048576
+#+end_src

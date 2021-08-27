@@ -2,6 +2,9 @@
 #+AUTHOR: Jacob Stannix
 
 * Wishlist
+** [[https://github.com/karthink/popper][popper]]
+
+** God Mode
 
 ** [[file:~/.dotfiles/guides/edwina.org][edwina]]
 
@@ -15,5 +18,5 @@
 
 ** [[file:~/.dotfiles/guides/selectrum.md][selectrum]] 
 
-** [[file:~/.dotfiles/guides/vertico.org][vertico]]
+** No Littering
 

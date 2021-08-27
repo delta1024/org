@@ -5,3 +5,4 @@
 In Linux drive are partitioned in a variety of ways, some graphical others using the command line.
 
 - [[id:c5eb3206-4bf0-4331-b765-72fb26f69edd][LVM/LUKS]] uses drive encryption
+- [[id:539a2ea6-5af8-4eed-bba1-7813c638d21f][Swap]][[id:539a2ea6-5af8-4eed-bba1-7813c638d21f][Swap]] file

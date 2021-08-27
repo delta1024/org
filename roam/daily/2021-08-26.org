@@ -1,0 +1,12 @@
+:PROPERTIES:
+:ID:       d88f5531-ff7a-49ba-b3c4-b4c250927ee0
+:END:
+#+title: 2021-08-26
+* Upgraded emacs and system profiles
+Couldn't get around to upgrading the user profile though
+* Started configuring polybar
+I integrated polybar into my exwm conifg
+* The transparency hurts my eyes after long sessions of using emacs
+Why don't we write a function to toggle the frame opacity of emacs on a button press. we can set the alpha values to 100.
+* Update on frame transparncy
+It apears to be more difficult the I antisipated, lets write a function to kill then spawn. I currently have picom configured to start in my .xsessions file and I like that behavior so i'm goin go keep it.

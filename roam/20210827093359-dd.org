@@ -1,0 +1,5 @@
+:PROPERTIES:
+:ID:       0475fe77-4b06-443f-8703-30784c862ef4
+:END:
+#+title: dd
+convert and copy a file

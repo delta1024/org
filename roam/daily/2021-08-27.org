@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       b77babd1-6d08-49d0-ad52-af534b0bd874
+:END:
+#+title: 2021-08-27
+* Remember to upgrade user profile
+Upgrade user profile
+* Continuation of picom toggle
+Looks like we'll have to launch picom from emacs and capture the =pid=.
+* qtwebengine keeps failing to build
+could be a issue with memory. try changing the size of the swapfile.
+for now i've told guix to continue even if the derivation failes to update the rest of the profile.
