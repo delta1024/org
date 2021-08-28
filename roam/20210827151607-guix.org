@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       9bb8aabc-d582-40c9-a04e-812648ee9f34
+:END:
+#+title: Guix
+Guix is the linux the name of both the linux distrobution and package manager developed by GNU
+* Desabeling a service

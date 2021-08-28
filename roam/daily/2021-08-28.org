@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       d4982474-c7e3-4d42-9feb-6e584cb31d6e
+:END:
+#+title: 2021-08-28
+* qtwebengine not yet built
+Wait for it to finish going through the que.
+* qtwebenguin sub is now avalibel
+every thing is up to date and the channels are ready to be locked
