@@ -1,4 +1,8 @@
 * Household
+** TODO Go Shopping
+DEADLINE: <2021-08-28 Sat 14:30>
+** TODO Make Buggsie Food
+DEADLINE: <2021-08-28 Sat 15:30>
 * Medical
 ** NOT_BOOKED Cleaning and Checkup 
 Doctor: Shell
