@@ -1,0 +1,11 @@
+#+TITLE: Appointments
+* Perscriptions
+* Dentist
+** Cavities <2021-10-28 Thu 13:00>
+** Anual Checkup <2022-09-26 Mon 13:00> 
+* Doctor
+** Doctor Chatour <2021-09-13 Mon 08:30>
+** Dr Ardi <2021-10-04 Mon 15:15>
+Duggan Medical Clinic =3916 106st NW=
+*** Follow up with Polla after appointment
+=587-338-7157=

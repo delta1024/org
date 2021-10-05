@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       1720ebfc-fb7f-43ee-8b3f-36f97049ef2f
+:END:
+#+title: 2021-08-30
+* I'd like to setup auto login for my user with a mimimal graphical environment.
+right now that seems to be a bit difficult. Complex. As far as i can tell Guix wasn't designed(source) with startx in mind. There is a function for it in the GUIX API but i don't know how tricky it'll be to implement.
+
+First place to start would be with loging in our user automatically.

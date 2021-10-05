@@ -1,0 +1,100 @@
+#+TITLE: Habits
+* TODO Brush Teeth 
+SCHEDULED: <2021-10-06 Wed 07:30 ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-10-05 Tue 11:34]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-10-05 Tue 11:34]
+- State "DONE"       from "TODO"       [2021-10-05 Tue 11:33]
+- State "DONE"       from "TODO"       [2021-09-25 Sat 07:15]
+- State "DONE"       from "TODO"       [2021-09-25 Sat 06:56]
+- State "DONE"       from "TODO"       [2021-09-23 Thu 12:52]
+- State "DONE"       from "TODO"       [2021-09-22 Wed 14:44]
+- State "DONE"       from "TODO"       [2021-09-21 Tue 17:17]
+- State "DONE"       from "TODO"       [2021-09-18 Sat 07:09]
+- State "DONE"       from "TODO"       [2021-09-17 Fri 17:14]
+- State "DONE"       from "TODO"       [2021-09-16 Thu 16:35]
+- State "DONE"       from "TODO"       [2021-09-14 Tue 07:40]
+- State "DONE"       from "TODO"       [2021-09-08 Wed 07:27]
+- State "DONE"       from "TODO"       [2021-09-07 Tue 08:27]
+- State "DONE"       from "TODO"       [2021-09-05 Sun 18:27]
+- State "DONE"       from "TODO"       [2021-09-04 Sat 17:29]
+- State "DONE"       from "TODO"       [2021-09-02 Thu 11:00]
+- State "DONE"       from "TODO"       [2021-09-01 Wed 07:21]
+- State "DONE"       from "TODO"       [2021-08-31 Tue 07:33]
+- State "DONE"       from "TODO"       [2021-08-30 Mon 07:36]
+- State "DONE"       from "TODO"       [2021-08-29 Sun 08:54]
+:END:
+* TODO Brush Teeth
+SCHEDULED: <2021-09-25 Sat 21:00 ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-09-25 Sat 06:56]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-09-25 Sat 06:56]
+- State "DONE"       from "TODO"       [2021-09-22 Wed 14:44]
+- State "DONE"       from "TODO"       [2021-09-20 Mon 08:22]
+- State "DONE"       from "TODO"       [2021-09-19 Sun 07:51]
+- State "DONE"       from "TODO"       [2021-09-18 Sat 07:09]
+- State "DONE"       from "TODO"       [2021-09-14 Tue 07:40]
+- State "DONE"       from "TODO"       [2021-09-02 Thu 21:14]
+- State "DONE"       from "TODO"       [2021-08-31 Tue 21:59]
+- State "DONE"       from "TODO"       [2021-08-30 Mon 21:49]
+:END:
+* TODO Floss Teeth
+SCHEDULED: <2021-09-25 Sat 21:00 ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-09-25 Sat 06:56]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2021-09-25 Sat 06:56]
+- State "DONE"       from "TODO"       [2021-09-22 Wed 14:44]
+- State "DONE"       from "TODO"       [2021-09-20 Mon 08:22]
+- State "DONE"       from "TODO"       [2021-09-19 Sun 07:51]
+- State "DONE"       from "TODO"       [2021-09-18 Sat 07:09]
+- State "DONE"       from "TODO"       [2021-09-16 Thu 16:36]
+- State "DONE"       from "TODO"       [2021-08-31 Tue 21:59]
+- State "DONE"       from "TODO"       [2021-08-30 Mon 21:49]
+:END:
+* TODO Change Underwear
+SCHEDULED: <2021-10-06 Wed 07:00 ++1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2021-10-05 Tue 09:46]
+:END:
+:LOGBOOK:
+- State "DONE"       from "STARTED"    [2021-10-05 Tue 09:46]
+- State "DONE"       from "TODO"       [2021-09-28 Tue 11:49]
+- State "DONE"       from "TODO"       [2021-09-25 Sat 06:57]
+- State "DONE"       from "TODO"       [2021-09-25 Sat 06:56]
+- State "DONE"       from "TODO"       [2021-09-23 Thu 12:52]
+- State "DONE"       from "TODO"       [2021-09-22 Wed 14:44]
+- State "DONE"       from "TODO"       [2021-09-21 Tue 17:18]
+- State "DONE"       from "TODO"       [2021-09-20 Mon 08:22]
+- State "DONE"       from "TODO"       [2021-09-19 Sun 07:50]
+- State "DONE"       from "TODO"       [2021-09-18 Sat 07:09]
+- State "DONE"       from "TODO"       [2021-09-17 Fri 07:07]
+- State "DONE"       from "TODO"       [2021-09-16 Thu 09:16]
+- State "DONE"       from "TODO"       [2021-09-15 Wed 06:49]
+- State "DONE"       from "TODO"       [2021-09-14 Tue 06:40]
+- State "DONE"       from "TODO"       [2021-09-13 Mon 07:41]
+- State "DONE"       from "TODO"       [2021-09-12 Sun 07:31]
+- State "DONE"       from "TODO"       [2021-09-11 Sat 06:50]
+- State "DONE"       from "TODO"       [2021-09-10 Fri 06:47]
+- State "DONE"       from "TODO"       [2021-09-09 Thu 06:37]
+- State "DONE"       from "TODO"       [2021-09-08 Wed 07:12]
+- State "DONE"       from "TODO"       [2021-09-07 Tue 08:16]
+- State "DONE"       from "TODO"       [2021-09-06 Mon 09:47]
+- State "DONE"       from "TODO"       [2021-09-05 Sun 06:51]
+- State "DONE"       from "TODO"       [2021-09-04 Sat 17:29]
+- State "DONE"       from "TODO"       [2021-09-03 Fri 07:14]
+- State "DONE"       from "TODO"       [2021-09-02 Thu 07:41]
+- State "DONE"       from "TODO"       [2021-09-01 Wed 06:31]
+- State "DONE"       from "TODO"       [2021-08-31 Tue 06:31]
+- State "DONE"       from "TODO"       [2021-08-30 Mon 07:19]
+- State "DONE"       from "TODO"       [2021-08-29 Sun 08:44]
+:END:

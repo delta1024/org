@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       56602a2f-b008-4de9-aef5-5c13d1770014
+:END:
+#+title: 2021-08-31
+* Testing no scheduling on habits
+Change Underwear is the control
+- didn't work.
+* pdfs are too blinding
+go download the html
+

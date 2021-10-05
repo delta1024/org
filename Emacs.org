@@ -10,13 +10,11 @@
 
 ** [[file:~/.dotfiles/guides/embark.org][embark]]
 
-** [[file:~/.dotfiles/guides/marginalia.org][marginalia]] 
-
 ** [[file:~/.dotfiles/guides/perspective.md][perspective]] 
 
 ** [[file:~/.dotfiles/guides/prescient.md][prescient]] 
 
 ** [[file:~/.dotfiles/guides/selectrum.md][selectrum]] 
 
-** No Littering
+** [[https://github.com/ahungry/md4rd][md4rd - Mode for Reddit]]
 

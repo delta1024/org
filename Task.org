@@ -1,0 +1,51 @@
+#+TITLE: Tasks
+* General
+** Finish Resume for You.
+SCHEDULED: <2021-09-08 Wed 06:00> DEADLINE: <2021-09-07 Tue 20:00>
+** DONE [#A] Fill Perscription 
+CLOSED: [2021-09-21 Tue 17:17] DEADLINE: <2021-09-20 Mon 12:00>
+*** Transpose changes from newer version of resume to older version
+** DONE Buy Shoes
+CLOSED: [2021-09-02 Thu 16:57] SCHEDULED: <2021-09-02 Thu 12:00> DEADLINE: <2021-09-02 Thu 13:00>
+Think about where you want to go to buy shoes.
+* Finances
+** DONE Cancel Netflix
+CLOSED: [2021-09-03 Fri 07:13] SCHEDULED: <2021-09-02 Thu 14:30> DEADLINE: <2021-09-02 Thu 15:00>
+** Cancel Amazon Prime
+SCHEDULED: <2021-09-05 Sun> DEADLINE: <2021-09-11 Sat>
+* Household
+** TODO  Clean Bathroom
+DEADLINE: <2021-09-07 Tue 14:00 +1w> SCHEDULED: <2021-09-07 Tue 13:00>
+:PROPERTIES:
+:LAST_REPEAT: [2021-08-29 Sun 13:20]
+:END:
+:LOGBOOK:
+- State "DONE"       from "STARTED"    [2021-08-29 Sun 13:20]
+:END:
+** DONE Wash Work Cloths
+CLOSED: [2021-09-07 Tue 08:25] SCHEDULED: <2021-09-06 Mon 13:00> DEADLINE: <2021-09-06 Mon 20:00>
+** Rent
+SCHEDULED: <2021-10-30 Sat +1m> DEADLINE: <2021-11-01 Mon +1m>
+:PROPERTIES:
+:LAST_REPEAT: [2021-10-05 Tue 09:47]
+:END:
+:LOGBOOK:
+- State "DONE"       from ""           [2021-10-05 Tue 09:47]
+- State "DONE"       from "TODO"       [2021-08-30 Mon 21:16]
+:END:
+** DONE Buspass
+CLOSED: [2021-09-04 Sat 17:29] SCHEDULED: <2021-09-04 Sat 16:30> DEADLINE: <2021-09-02 Thu 16:00>
+* Medical
+**  Cleaning and Checkup <2021-09-16 Thu 13:00>
+Doctor: Shell
+** STARTED Make appointment with adhd doctor  
+Doctor: ?
+Date: ?
+*** Google adhd doctor edmonton
+*** phone and ask if they are accepting new pacients
+** [#A] apply for medical insurance
+DEADLINE: <2021-09-29 Wed>
+*** Go to the bluecross websit follow the instructions
+*** Stay on it
+** <2021-10-15 Fri 18:15> dynalife
+

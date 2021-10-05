@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       668213a3-8952-4b54-80ac-58f037c37ba3
+:END:
+#+title: 2021-09-02
+* Started work on dotcrafter-guix
+I'm a huge fan of how dotcrafter has made it easier to manage my
+dotfiles. Upon learning i could get property tag info i tried to hack
+it so it would noweb-ref it to a file. It didn't work. The solution is
+to create an extention to dotcrafter that allows us to buid a manifest
+for a package by specifiying the package name in an org property
+header.

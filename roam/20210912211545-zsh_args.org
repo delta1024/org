@@ -1,0 +1,41 @@
+:PROPERTIES:
+:ID:       987a32ef-47ec-4648-b494-91a2d151b885
+:END:
+#+title: zsh-args
+[[id:b80aa01d-249e-43bf-8487-c4c073ff4c9f][ZSH]] has the capability to capture user arguments and command line flags. This is esspecialy useful if one is writing a function to preform a complicated task -- especitally if it is compiresed of multiple tasks.
+This can be done with the command =zparseopts=
+
+#+begin_example
+If you use individual arrays for each option, then you can do this:
+
+    local -a debug help vers usage
+    zparseopts d=debug -debug=debug \
+               h=help -help=help \
+	       v=vers -version=vers \
+	       \?=usage
+
+and e.g. $+debug[1] indicates whether one of -d or --debug was used,
+and the value in $debug will tell you which one.  However, if *both*
+were used, $debug will contain both, whereas if -d were used twice,
+it would appear in $debug only once.
+
+Compare this to "zparseopts -d+=debug" in which two uses of -d places
+two array elements in $debug.
+
+} ##
+} while getopts dhv opt
+}     do case $opt in
+}            (d)  setopt xtrace;;
+} 
+}            (h)  print_help
+}                 exit;;
+} 
+}            (v)  print_version
+}                 exit;;
+} 
+}            (\?) print_usage >&2
+}                 exit 1;;
+}        esac
+} done
+} ##
+#+end_example

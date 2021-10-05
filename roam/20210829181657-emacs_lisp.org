@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       1e1e33c0-a9b5-4ae7-80cd-431a4a47154f
+:END:
+#+title: emacs-lisp
+emacs lisp is the a dialect of the lisp programing language used to configureing [[id:56a26ff3-eba0-4d5f-9392-1a0758047cfa][Emacs]].
+
+* Expanding File Paths
+useful functions
+- =substitute-in-file-name=

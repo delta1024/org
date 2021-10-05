@@ -1,8 +1,0 @@
-#+TITLE: Linux Notes
-
-* Shrinking a LVM/LUKS partition
-* GPG Keys
-
-* ZSH
-
-** Arrays

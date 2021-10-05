@@ -1,0 +1,6 @@
+:PROPERTIES:
+:ID:       6d629ca7-608f-4bdc-9f46-6b3d6f9980bd
+:END:
+#+title: org-mode
+** Property values
+To get all the values of a property in a buffer run =org-property-values=

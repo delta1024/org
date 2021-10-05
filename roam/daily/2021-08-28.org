@@ -6,3 +6,10 @@
 Wait for it to finish going through the que.
 * qtwebenguin sub is now avalibel
 every thing is up to date and the channels are ready to be locked
+* nm-applet can't be started as user
+issue could be from misconfigured service options or wrong user asigned group.
+- [[info:guix#Networking Services][guix#Networking Services]]
+- google problem
+- ask in the system crafters discord
+* started work on sys-crafters-emacs-templates
+ran into an unexpected snag, i can't seem to escape quoted symbles; will investigate tommorow.

@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       cfcb804f-8c14-47d1-b19d-0dc253f97381
+:END:
+#+title: 2021-08-29
+* Started watching [[file:~/Videos/System Crafters/Learning Emacs Lisp/#5 - Reading and Writing Buffers in Practice.mkv][Reading and Writing Buffers in Practice]] yesterday
+only got to =21:09= in the video though.
+* found a way to make nowebs look nicer in shell mode
+put it in a block above the desired block
+* I would like exwm to be able to restart emacs with out exiting the xsession.
+It dosen't look like this is possible from exwm so i'm going to try hacking the shell evironment to see if it's possible
+* watched some more learing emacs lisp
+got to =46:47=.
+* Started moving Guix sub trees into drawrs
+it looks much nicer
+* also started moving header invocatins to there own box as well
+it's gonna be rad
